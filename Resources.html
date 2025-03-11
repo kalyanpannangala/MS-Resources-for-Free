@@ -39,10 +39,21 @@
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
             margin-top: 20px;
         }
-        h1 {
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
             font-size: 28px;
             color: #00A4EF;
-            margin-bottom: 20px;
+            margin: 0;
+        }
+        .logo {
+            width: 50px;
+            order: -1;
         }
         .link-box {
             margin: 20px 0;
@@ -100,8 +111,15 @@
         <a href="#" onclick="showPage('contact')">Contact</a>
     </div>
     
-    <div id="home" class="container">
-        <h1>Microsoft Learning & Resources</h1>
+    <div id="home" class="container"> 
+        &nbsp;
+      
+        <div class="header">
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo">
+            <h1>Microsoft Learning & Resources for Free</h1>
+        </div>
+        &nbsp;
+        
         <div class="link-box">
             <p><strong>🚀 Unlock Free Microsoft Courses with Certifications</strong></p>
             <a class="button" href="https://learn.microsoft.com/training/browse/?wt.mc_id=studentamb_457065" target="_blank">Start Learning</a>
@@ -123,9 +141,10 @@
     <div id="contact" class="container contact">
         <h1>Contact Us</h1>
         <p>If you have any queries, feel free to reach out:</p>
-        <p><strong>Email:</strong> kalyanpannangala@gmail.com</p>
-        <p><strong>Instagram:</strong> <a class="button instagram" href="https://www.instagram.com/kalyanpannangala" target="_blank"> Instagram </a></p>
+        <p><strong>Email:</strong> kalyan.pannangala@outlook.com</p>
+        <p><strong>Instagram:</strong> <a class="button instagram" href="https://www.instagram.com/kalyanpannangala" target="_blank">Follow on Instagram</a></p>
         <p><strong>LinkedIn:</strong> <a class="button linkedin" href="https://www.linkedin.com/in/kalyanpannangala/" target="_blank">Connect on LinkedIn</a></p>
     </div>
 </body>
 </html>
+
